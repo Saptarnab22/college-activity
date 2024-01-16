@@ -1,0 +1,78 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 16px;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.para-class {
+  text-align: center;
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+.grid-team {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  margin-left: 25px;
+}
+
+@media (max-width: 1200px) {
+  .grid-team {
+    grid-template-columns: 1fr;
+  }
+}
+
+.team-img {
+  max-width: 100%;
+}
+
+.team-info-grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  column-gap: 20px;
+}
+
+.info-grid {
+  padding-top: 25px;
+}
+
+.info-grid div {
+  padding-top: 15px;
+}
+
+
+
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 75px;
+  margin-left: 60px;
+}
+
+.menu-align {
+  text-align: center;
+  padding-top: 75px;
+}
+
+@media (max-width:1520px) {
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
+}

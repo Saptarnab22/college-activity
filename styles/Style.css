@@ -1,0 +1,150 @@
+.BCD {
+  text-align: center;
+  position: relative;
+  left: -575px;
+  top: 25px;
+}
+
+.GHI {
+  text-align: center;
+  position: relative;
+  right: -115px;
+  top: -105px;
+  font-size: 60px;
+}
+
+.HIJ {
+  text-align: center;
+  position: relative;
+  right: -137px;
+  top: -96px;
+}
+
+.DEF {
+  background-color: white;
+  border: none;
+  position: absolute;
+  right: 70px;
+  top: 10px;
+}
+
+.EFG {
+  background-color: white;
+  border: none;
+  position: absolute;
+  right: 40px;
+  top: 10px;
+}
+
+.FGH {
+  background-color: white;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.XYZ {
+  position: absolute;
+  top: 10px;
+  left: 115px;
+}
+
+footer {
+  background-color: RGB(172 172 172);
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.About {
+  font-family: Geneva;
+  font-size: 1.193rem;
+  text-align: justify;
+  margin: -10px 6rem 3rem;
+}
+
+nav {
+  background-color: RGB(222 221 222);
+  border-bottom: 1px solid rgb(25, 25, 25);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  border: 2px solid transparent;
+  padding: 4px;
+  font-size: 0.98rem;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  border: 2px solid #c89b69;
+}
+
+header {
+  background-color: rgb(247 246 247);
+  text-align: center;
+  padding: 1em 0;
+}
+
+.social {
+  text-align: left;
+}
+
+.social a {
+  padding: 5px;
+}
+
+.social a img {
+  height: 30px;
+  width: 30px;
+}
+
+.menu {
+  height: 50px;
+  width: 120px;
+  position: relative;
+  left: 46%;
+  border: none;
+  font-weight: 600;
+  font-size: 1.2em;
+  border-radius: 20px;
+  font-family: "Times New Roman";
+  background-color: royalblue;
+  margin-bottom: 40px;
+}
+
+.content {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.endHr {
+  border: 1px solid rgb(33, 33, 33);
+}
+
+a p {
+  font-size: 2.5em;
+  text-align: center;
+  color: #fc883a;
+  margin-top: -50px;
+  position: relative;
+}
